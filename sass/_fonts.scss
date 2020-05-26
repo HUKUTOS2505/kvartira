@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Museo Sans bold';
+  src: url('../fonts/museo/MuseoSansCyrl-700.eot');
+  src: url('../fonts/museo/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/museo/MuseoSansCyrl-700.woff2') format('woff2'),
+  url('../fonts/museo/MuseoSansCyrl-700.woff') format('woff'),
+  url('../fonts/museo/MuseoSansCyrl-700.ttf') format('truetype'),
+  url('../fonts/museo/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans light';
+  src: url('../fonts/museo/MuseoSansCyrl-300.eot');
+  src: url('../fonts/museo/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/museo/MuseoSansCyrl-300.woff2') format('woff2'),
+  url('../fonts/museo/MuseoSansCyrl-300.woff') format('woff'),
+  url('../fonts/museo/MuseoSansCyrl-300.ttf') format('truetype'),
+  url('../fonts/museo/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+ @mixin reg{
+  font-family: "Museo Sans light",sans-serif;
+  font-weight: 300;
+}
+@mixin bold{
+   font-family: "Museo Sans light",sans-serif;
+   font-weight: 700;
+ }
