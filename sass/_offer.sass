@@ -1,0 +1,117 @@
+.offer
+
+  background: url("../img/offer-kuhna.png") no-repeat
+  background-size:    auto
+  background-position: center right
+  position: relative
+
+
+  &::before
+    content: ''
+    width: 50%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    background-color: white
+  &-block
+
+
+    width: 50%
+    padding-right: 90px
+    position: relative
+  &__title
+    width: 360px
+    line-height: 35px
+    margin-bottom: 18px
+    +bold
+  &__subtitle
+    +reg
+    display: block
+    width: 250px
+    margin-bottom: 30px
+  &__input
+    height: 65px
+    margin-bottom: 30px
+    width: 240px
+    &:focus
+      border: 2px solid yellow
+    &:first-child
+      margin-right: 10px
+    &:nth-child(2)
+      padding: 24px 32px
+  &__button
+    width: 100%
+    height: 70px
+    font-size: 16px
+
+    padding-top: 15px
+    margin-bottom: 26px
+
+  &-contacts
+    margin-right: 8px
+    flex-direction: column
+    margin-top: 5px
+    &__adress
+      margin-bottom: 4px
+      font-size: 15px
+      +reg
+      display:  flex
+    &__phone
+      color: black
+      line-height: 24px
+      font-size: 15px
+      +bold
+      text-decoration: none
+
+  &-communication
+    display: flex
+    justify-content: space-between
+    margin-bottom: 17px
+    &__span
+      line-height: 24px
+      +reg
+
+      font-size: 15px
+  &-info
+    width: 230px
+
+    margin-top: 2px
+
+
+@media (max-width: 1200px)
+  .offer
+    background-size: cover
+    &-block
+      padding-right: 50px
+    &__input
+      width: 100%
+
+      margin-bottom: 10px
+
+    &__button
+      font-size: 15px
+
+
+@media (max-width: 768px)
+  .offer
+    background: #fff
+    &-block
+      width: 100%
+      padding-right: 13px
+    &__input
+      width: 100%
+      margin-bottom: 10px
+
+    &__button
+      font-size: 18px
+    &__title
+      font-size: 18px
+      width: 100%
+    &__subttilte
+      width: 100%
+    &-communication
+      flex-direction: column
+    &-info
+      width: 100%
+

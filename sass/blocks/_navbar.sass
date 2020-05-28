@@ -5,12 +5,15 @@
     justify-content: space-between
     align-items: center
   &__phone
+
     color: $cery
     margin-top: 6px
     font-size: 20px
     text-decoration: none
     +bold
     display: inline-block
+
+    font-weight: 400
   &__address
     color: #626262
     font-size: 13px
@@ -25,7 +28,7 @@
     align-items: center
     text-align: right
   &__button
-    margin-left: 31px
+    margin-left: 29px
 
 
 @media(max-width: 768px)
@@ -39,3 +42,9 @@
       width: 90px
       img
         max-width: 100%
+
+@media(max-width: 400px)
+  .navbar
+
+    &__button
+    margin-left: 23px
