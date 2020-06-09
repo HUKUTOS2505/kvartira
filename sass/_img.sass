@@ -1,0 +1,48 @@
+.rabota
+  &__image
+    display: flex
+    justify-content: space-between
+
+    margin-top: 50px
+  &-span
+    width: 314px
+    padding-bottom: 50px
+
+    font-size: 16px
+
+    line-height: 23px
+    +reg
+
+    padding-left: 26px
+
+    padding-top: 27px
+
+
+
+
+.rabota__img
+  background-color: #f7f7f7
+  bortder: 1px solid black
+  height: 417px
+
+.rabota__img img
+  width: 360px
+  height: 270px
+@media (max-width: 1200px)
+  .rabota__image
+    flex-wrap: wrap
+    justify-content: space-around
+  .rabota__img
+    margin-bottom: 30px
+
+@media (max-width: 400px)
+  .rabota__img img
+      width: 277px
+      height: 195px
+  .rabota-span
+    width: 250px
+    & span
+      font-size: 12px
+      line-height: 17px
+  .rabota__img
+    height: 342px

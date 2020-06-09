@@ -9,6 +9,8 @@
 body
 
  +reg
+
+
 .button
 
   border-radius: 10px
@@ -36,8 +38,9 @@ body
   padding: 55px 0
 
   &-title
-
+    text-align: center
     font-size: 24px
+
   &-subtitle
     font-size: 16px
   .input
@@ -46,3 +49,6 @@ body
 
     font-size: 15px
     border-radius: 10px
+
+  input.invalid
+    border: 1px solid red

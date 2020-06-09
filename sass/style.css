@@ -1,0 +1,9 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  animation-name: slideRightt;
+  animation-duration: 1s;
+}
+
+/*# sourceMappingURL=style.css.map */

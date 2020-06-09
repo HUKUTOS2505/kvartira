@@ -1,0 +1,54 @@
+.portfolio
+  background: $secondory url("../img/pattern.jpg") repeat-y center left
+  background-size: 50%
+  padding-bottom: 92px
+  &__title
+
+
+    +bold
+    margin: auto
+    line-height: 45px
+    margin-bottom: 94px
+    margin-top: 33px
+    font-size: 30px
+
+  &__arrows
+    max-width: 120px
+    margin: auto
+    display: flex
+    margin-top: 68px
+    justify-content: space-between
+.arrows
+  &__left,&__right
+     &:hover
+      cursor: pointer
+
+.slider
+  &__image
+    margin: auto
+  &__item
+
+
+@media (max-width: 768px)
+  .section
+    padding: 17px
+  .portfolio
+    background: $secondory
+    &__arrows
+      margin-top: 46px
+    &__title
+      width: 280px
+
+
+      margin-bottom: 42px
+      font-size: 18px
+      line-height: 21px
+      margin-left: -10px
+      margin-top: 29px
+  .slider__image
+    width: 85%
+
+    margin: auto
+
+  #up,#down
+    display: none
