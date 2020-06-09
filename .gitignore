@@ -1,4 +1,3 @@
-# IntellijIdea files
-*.iml
-.node_modules
-out
+.idea/
+package-lock.json
+/node_modules/
